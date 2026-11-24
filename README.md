@@ -1,6 +1,6 @@
-# CTC — EcoPonto Catador
+# CTC — Centro de Triagem Cooperativa
 
-Landing page estática do MVP EcoPonto Catador, com a identidade visual CTC.
+Landing page estática da CTC, com uma proposta de recebimento e triagem de recicláveis e inclusão social.
 
 ## Executar localmente
 
