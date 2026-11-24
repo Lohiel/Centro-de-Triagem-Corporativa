@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#063d2d" />
+    <meta name="description" content="Conheça o EcoPonto Catador, um projeto de recebimento e triagem de recicláveis que une aproveitamento de materiais e inclusão social." />
+    <title>CTC | EcoPonto Catador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#inicio" aria-label="CTC, voltar ao início">
+          <img src="assets/logo-ctc.png" alt="CTC — Centro de Triagem Cooperativa" width="1520" height="1035" />
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-controls="main-nav" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="main-nav" class="main-nav" aria-label="Navegação principal">
+          <a href="#proposito">O projeto</a>
+          <a href="#funcionamento">Como funciona</a>
+          <a href="#parcerias">Para quem</a>
+          <a class="nav-cta" href="#proposta">Ver a proposta</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-orb hero-orb-one" aria-hidden="true"></div>
+        <div class="hero-orb hero-orb-two" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow"><span class="eyebrow-line"></span> MVP CTC · ECOPONTO CATADOR</span>
+            <h1 id="hero-title">O reciclável tem valor.<br /><em>Quem coleta também.</em></h1>
+            <p>O EcoPonto Catador propõe um espaço para receber, separar e encaminhar resíduos recicláveis, ampliando o acesso dos catadores aos materiais antes da destinação final.</p>
+            <div class="hero-actions">
+              <a class="button button-lime" href="#funcionamento">Entenda como funciona</a>
+              <a class="text-link" href="#proposta">Conheça o MVP</a>
+            </div>
+            <div class="hero-note"><span class="note-mark" aria-hidden="true">✳</span> Uma proposta para conectar pessoas, materiais e oportunidades.</div>
+          </div>
+          <figure class="hero-photo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/TriagemDeLixo.jpg" alt="Pessoas fazendo a triagem manual de resíduos recicláveis no Brasil" width="1280" height="960" fetchpriority="high" referrerpolicy="no-referrer" />
+            <figcaption><span>O trabalho humano move a reciclagem</span><small>Foto de referência · Não retrata a CTC</small></figcaption>
+          </figure>
+        </div>
+        <div class="hero-bottom" aria-hidden="true"><span></span><span></span><span></span></div>
+      </section>
+
+      <section class="intro section-pad" id="proposito" aria-labelledby="intro-title">
+        <div class="container intro-grid">
+          <div><span class="section-kicker">POR QUE EXISTE</span><h2 id="intro-title">Quando o material se perde, <span>todos perdemos.</span></h2></div>
+          <div class="intro-content"><p>Parte dos recicláveis ainda é descartada sem passar por uma triagem adequada. Ao mesmo tempo, catadores encontram barreiras para acessar os materiais e trabalhar com estrutura e segurança.</p><p>O projeto nasce dessa conexão: dar aos resíduos um caminho melhor e reconhecer o papel de quem torna a reciclagem possível.</p></div>
+        </div>
+        <figure class="container place-photo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Ecoponto_Bairro_Linhares_Juiz_de_Fora.jpg" alt="Ecoponto de recebimento de resíduos no bairro Linhares, em Juiz de Fora" width="2868" height="2151" loading="lazy" referrerpolicy="no-referrer" />
+          <figcaption><strong>Um espaço real de recebimento como referência</strong><span>Ecoponto em Juiz de Fora (MG) · Não é uma unidade da CTC</span></figcaption>
+        </figure>
+        <div class="container pillars" aria-label="Pilares do projeto">
+          <article class="pillar"><span class="pillar-icon" aria-hidden="true">♻</span><h3>Menos desperdício</h3><p>Mais materiais recicláveis identificados e encaminhados para reaproveitamento.</p></article>
+          <article class="pillar"><span class="pillar-icon" aria-hidden="true">▣</span><h3>Mais estrutura</h3><p>Um espaço pensado para recebimento, separação, pesagem e armazenamento.</p></article>
+          <article class="pillar"><span class="pillar-icon" aria-hidden="true">✳</span><h3>Mais inclusão</h3><p>Acesso dos catadores aos recicláveis antes que cheguem ao aterro.</p></article>
+        </div>
+      </section>
+
+      <section class="process section-pad" id="funcionamento" aria-labelledby="process-title">
+        <div class="container">
+          <div class="section-heading"><div><span class="section-kicker">DO DESCARTE À POSSIBILIDADE</span><h2 id="process-title">Um fluxo simples.<br /><span>Um impacto que se multiplica.</span></h2></div><p>O EcoPonto organiza as etapas essenciais para que o material siga o destino certo e gere oportunidade.</p></div>
+          <div class="steps">
+            <article class="step"><div class="step-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M13 17h22v24H13V17Zm-3-7h28M19 10V7h10v3" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 24v10m8-10v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg></div><span class="step-label">ETAPA 01</span><h3>Recebimento</h3><p>Os resíduos chegam à central antes do envio para a destinação final.</p></article>
+            <article class="step"><div class="step-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M8 12h32M8 24h32M8 36h32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="16" cy="12" r="4" fill="currentColor"/><circle cx="29" cy="24" r="4" fill="currentColor"/><circle cx="20" cy="36" r="4" fill="currentColor"/></svg></div><span class="step-label">ETAPA 02</span><h3>Triagem</h3><p>Os materiais são separados, pesados e organizados para armazenamento.</p></article>
+            <article class="step"><div class="step-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M10 35h28M15 35V20l9-8 9 8v15M19 35v-9h10v9" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="m18 17 6-5 6 5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg></div><span class="step-label">ETAPA 03</span><h3>Encaminhamento</h3><p>Recicláveis seguem para aproveitamento; rejeitos, para a destinação adequada.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="audience section-pad" id="parcerias" aria-labelledby="audience-title">
+        <div class="container audience-grid">
+          <div class="audience-copy"><span class="section-kicker">UMA REDE QUE FAZ ACONTECER</span><h2 id="audience-title">Mais forte quando <span>feito junto.</span></h2><p>O modelo conecta quem coleta, quem organiza a gestão dos resíduos e quem pode dar nova vida aos materiais.</p><a class="button button-dark" href="#proposta">Explore a proposta completa</a></div>
+          <div class="audience-list">
+            <div class="audience-item"><div><h3>Catadores e cooperativas</h3><p>Acesso aos materiais e a um espaço de trabalho mais estruturado.</p></div><span class="audience-symbol" aria-hidden="true">✳</span></div>
+            <div class="audience-item"><div><h3>Prefeituras e coleta</h3><p>Possibilidade de parceria para melhorar o fluxo de resíduos do município.</p></div><span class="audience-symbol" aria-hidden="true">✳</span></div>
+            <div class="audience-item"><div><h3>Indústrias e recicladoras</h3><p>Conexão com materiais recuperados e preparados para comercialização.</p></div><span class="audience-symbol" aria-hidden="true">✳</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="proposal section-pad" id="proposta" aria-labelledby="proposal-title">
+        <div class="container proposal-grid">
+          <div class="proposal-copy"><span class="section-kicker">A PROPOSTA DO MVP</span><h2 id="proposal-title">Uma ideia para <span>transformar lixo em oportunidade.</span></h2></div>
+          <div class="proposal-summary"><p>O EcoPonto Catador propõe receber e separar materiais recicláveis antes da destinação final, criando melhores condições de acesso para os catadores.</p><p>A operação pode ser construída com cooperativas, prefeituras e parceiros da cadeia de reciclagem, acompanhando materiais recebidos, recuperados e encaminhados.</p></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="container footer-inner"><div class="footer-brand"><strong>CTC</strong><span>Centro de Triagem Cooperativa · MVP EcoPonto Catador</span></div><p>Reciclagem, inclusão social e novas possibilidades para os materiais.</p><a href="#inicio">Voltar ao início</a></div><div class="container photo-credits">Fotografias de referência, exibidas com recorte: <a href="https://commons.wikimedia.org/wiki/File:TriagemDeLixo.jpg" target="_blank" rel="noopener noreferrer">Ignácio Costa</a> (<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC BY 3.0</a>) e <a href="https://commons.wikimedia.org/wiki/File:Ecoponto_Bairro_Linhares_Juiz_de_Fora.jpg" target="_blank" rel="noopener noreferrer">Rodgpereira</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>), via Wikimedia Commons.</div></footer>
+
+  </body>
+</html>
