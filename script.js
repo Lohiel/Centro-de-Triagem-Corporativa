@@ -27,7 +27,7 @@ if ('IntersectionObserver' in window && !reducedMotion.matches) {
     });
   }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
 
-  document.querySelectorAll('.intro-grid, .place-photo, .pillars, .section-heading, .steps, .audience-grid, .proposal-grid').forEach((element) => {
+  document.querySelectorAll('.intro-layout, .section-heading, .steps, .audience-grid, .proposal-grid').forEach((element) => {
     if (element.getBoundingClientRect().top < window.innerHeight * 0.9) return;
     element.classList.add('reveal-ready');
     revealObserver.observe(element);
