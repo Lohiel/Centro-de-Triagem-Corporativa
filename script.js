@@ -16,3 +16,21 @@ navigation?.querySelectorAll('a').forEach((link) => {
   });
 });
 
+const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+if ('IntersectionObserver' in window && !reducedMotion.matches) {
+  const revealObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('is-visible');
+      observer.unobserve(entry.target);
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.intro-grid, .place-photo, .pillars, .section-heading, .steps, .audience-grid, .proposal-grid').forEach((element) => {
+    if (element.getBoundingClientRect().top < window.innerHeight * 0.9) return;
+    element.classList.add('reveal-ready');
+    revealObserver.observe(element);
+  });
+}
+
